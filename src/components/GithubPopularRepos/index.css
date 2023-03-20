@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.popular-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 28px;
+  font-family: Lobster;
+  font-weight: 700;
+}
+.filter-container {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.fetched-data-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
