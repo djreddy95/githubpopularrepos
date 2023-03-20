@@ -60,8 +60,7 @@ class GithubPopularRepos extends Component {
   }
 
   inProgressView = () => (
-    // eslint-disable-next-line react/no-unknown-property
-    <div className="loader" testId="loader">
+    <div className="loader" data-testid="loader">
       <Loader type="ThreeDots" color="#0284c7" height={80} width={80} />
     </div>
   )
